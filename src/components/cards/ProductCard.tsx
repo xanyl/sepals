@@ -47,7 +47,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             {/* Product Name */}
             <p className='text-sm text-gray-500'>{product.Category?.name}</p>
             <p
-              className='font-semibold group-hover/card:text-emerald-800 text-lg truncate'
+              className='font-semibold group-hover/card:text-blue-800 text-lg truncate'
               title={product.name}
             >
               {product.name}
@@ -56,19 +56,19 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </div>
           <div className='flex items-center justify-between'>
             {/* Price */}
-            <div className='font-semibold text-emerald-700'>
+            <div className='font-semibold text-blue-700'>
               {/* @ts-expect-error */}
               {formatPrice(parseFloat(product.price))}
             </div>
             <div className='flex justify-center group/icon'>
               <IconButton
                 aria-label='add-to-cart'
-                className='bg-emerald-50 group-hover/icon:bg-emerald-500'
+                className='bg-blue-50 group-hover/icon:bg-blue-500'
                 onClick={onAddToCart}
                 icon={
                   <ShoppingCart
                     size={20}
-                    className='text-emerald-600 group-hover/icon:text-emerald-50'
+                    className='text-blue-600 group-hover/icon:text-blue-50'
                   />
                 }
               />
