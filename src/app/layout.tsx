@@ -9,7 +9,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Sepals',
-  description: 'An open source e-commerce project built by inifarhan',
+  description: 'A place where you can find your disposable towel.',
   category: 'ecommerce',
   authors: { name: 'inifarhan' },
   keywords: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   publisher: 'Muhammad Farhan Gunawan',
   openGraph: {
     title: 'Sepals',
-    description: 'An open source e-commerce project built by inifarhan',
+    description: 'A place where you can find your disposable towel.',
     url: 'https://Sepals-inifarhan.vercel.app/',
     siteName: 'Sepals',
     images: 'https://Sepals-inifarhan.vercel.app/images/screenshoot.PNG',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Sepals',
-    description: 'An open source e-commerce project built by inifarhan',
+    description: 'A place where you can find your disposable towel.',
     images: ['https://Sepals-inifarhan.vercel.app/images/screenshoot.PNG'],
   },
 }

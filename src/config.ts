@@ -4,19 +4,19 @@ export const INFINITE_SCROLL_LIMIT = 8
 
 export const categories: Category[] = [
   {
-    name: 'Skateboards',
-    slug: 'skateboards',
+    name: 'Hand towel',
+    slug: 'handtowel',
   },
   {
-    name: 'Clothing',
-    slug: 'clothing',
+    name: 'Facial tissue', 
+    slug: 'facialtissue',
   },
   {
-    name: 'Shoes',
-    slug: 'shoes',
+    name: 'Napkins paper',
+    slug: 'napkinspaper',
   },
   {
-    name: 'Accessories',
-    slug: 'accessories',
+    name: 'Toilet paper',
+    slug: 'toiletpaper',
   },
 ]

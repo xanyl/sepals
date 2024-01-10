@@ -2,32 +2,32 @@ const { PrismaClient } = require('@prisma/client')
 const prisma = new PrismaClient()
 
 async function main() {
-  const skateboards = await prisma.category.create({
+  const handtowels = await prisma.category.create({
     data: {
-      name: 'Skateboards',
-      slug: 'skateboards',
+      name: 'handtowels',
+      slug: 'handtowels',
     },
   })
-  const clothing = await prisma.category.create({
+  const facialtissue = await prisma.category.create({
     data: {
-      name: 'Clothing',
-      slug: 'clothing',
+      name: 'facialtissue',
+      slug: 'facialtissue',
     },
   })
-  const shoes = await prisma.category.create({
+  const napkinspaper = await prisma.category.create({
     data: {
-      name: 'Shoes',
-      slug: 'shoes',
+      name: 'napkinspaper',
+      slug: 'napkinspaper',
     },
   })
-  const accessories = await prisma.category.create({
+  const toiletpaper = await prisma.category.create({
     data: {
-      name: 'Accessories',
-      slug: 'accessories',
+      name: 'toiletpaper',
+      slug: 'toiletpaper',
     },
   })
 
-  console.log({ skateboards, clothing, shoes, accessories })
+  console.log({ handtowels, facialtissue, napkinspaper, toiletpaper })
 }
 main()
   .then(async () => {

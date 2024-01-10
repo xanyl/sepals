@@ -84,27 +84,27 @@ const MobileNav = () => {
                     <div className='flex flex-col gap-y-2 text-muted-foreground'>
                       <Link
                         onClick={() => setIsOpen(false)}
-                        href='/products?category=skateboards'
+                        href='/products?category=handtowel'
                       >
-                        Skateboards
+                        handtowel
                       </Link>
                       <Link
                         onClick={() => setIsOpen(false)}
-                        href='/products?category=clothing'
+                        href='/products?category=facialtissue'
                       >
-                        Clothing
+                        facialtissue
                       </Link>
                       <Link
                         onClick={() => setIsOpen(false)}
-                        href='/products?category=shoes'
+                        href='/products?category=napkinspaper'
                       >
-                        Shoes
+                        napkinspaper
                       </Link>
                       <Link
                         onClick={() => setIsOpen(false)}
-                        href='/products?category=accessories'
+                        href='/products?category=toiletpaper'
                       >
-                        Accessories
+                        toiletpaper
                       </Link>
                     </div>
                   </AccordionContent>

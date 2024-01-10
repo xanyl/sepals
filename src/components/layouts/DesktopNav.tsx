@@ -29,7 +29,7 @@ const DesktopNav = () => {
                     <Link className='flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md' href='/'>
                       <Icons.logo className='h-6 w-6' />
                       <div className='mb-2 mt-4 text-lg font-medium'>Sepals</div>
-                      <p className='text-sm leading-tight text-muted-foreground'>An open source ecommerce skateshop built with everything new in Next.js</p>
+                      <p className='text-sm leading-tight text-muted-foreground'>A place where you can find your disposable towel.</p>
                     </Link>
                   </NavigationMenuLink>
                 </li>
@@ -49,17 +49,17 @@ const DesktopNav = () => {
             <NavigationMenuTrigger>Categories</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className='grid w-[400px] gap-3 p-6 md:w-[500px] md:grid-cols-2'>
-                <ListItem href='/products?category=skateboards' title='Skateboards'>
-                  Explore the skateboards category
+                <ListItem href='/products?category=handtowel' title='handtowel'>
+                  Explore the handtowel category
                 </ListItem>
-                <ListItem href='/products?category=clothing' title='Clothing'>
-                  Explore the clothing category
+                <ListItem href='/products?category=facialtissue' title='facialtissue'>
+                  Explore the facialtissue category
                 </ListItem>
-                <ListItem href='/products?category=shoes' title='Shoes'>
-                  Explore the shoes category
+                <ListItem href='/products?category=napkinspaper' title='napkinspaper'>
+                  Explore the napkinspaper category
                 </ListItem>
                 <ListItem href='/products?category=accessories' title='Accessories'>
-                  Explore the accessories category
+                  Explore the toiletpaper category
                 </ListItem>
               </ul>
             </NavigationMenuContent>

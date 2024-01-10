@@ -49,11 +49,11 @@ const Hero = async () => {
         <div className="flex items-center justify-center md:justify-end">
           <Image
             priority
-            src="/images/hero.webp"
+            src="/images/hero.png"
             className="rounded-full"
             alt="Hero image"
-            width={500}
-            height={500}
+            width={700}
+            height={700}
           />
         </div>
       </div>

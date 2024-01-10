@@ -118,10 +118,10 @@ export function AddProductForm() {
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
-                    <SelectItem value='skateboards'>Skateboards</SelectItem>
-                    <SelectItem value='clothing'>Clothing</SelectItem>
-                    <SelectItem value='shoes'>Shoes</SelectItem>
-                    <SelectItem value='accessories'>Accessories</SelectItem>
+                    <SelectItem value='handtowel'>Hand Towel</SelectItem>
+                    <SelectItem value='facialtissue'>Facial Tissue</SelectItem>
+                    <SelectItem value='napkinspaper'>Napkins paper</SelectItem>
+                    <SelectItem value='toiletpaper'>Toilet Paper</SelectItem>
                   </SelectContent>
                 </Select>
                 <FormMessage />
@@ -137,7 +137,7 @@ export function AddProductForm() {
                 <FormControl>
                   <div className='relative'>
                     <p className='absolute text-sm left-0 w-8 inset-y-0 grid place-items-center'>
-                      Rp
+                      RS
                     </p>
                     <Input
                       type='number'
