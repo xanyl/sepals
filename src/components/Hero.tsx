@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 
-import GithubStars from "@/components/GithubStars";
 import GithubStarsSkeleton from "@/components/skeletons/GithubStarsSkeleton";
 import { buttonVariants } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
@@ -23,16 +22,13 @@ const Hero = async () => {
       </svg>
       <div className="max-w-7xl mx-auto grid grid-cols-1 gap-6 lg:gap-0 md:grid-cols-2 items-center justify-between px-4 sm:px-6 lg:px-8 pt-10 sm:pt-20 pb-20 sm:pb-28">
         <div className="flex flex-col gap-y-4 justify-center items-center text-center sm:items-start sm:text-start">
-          <Suspense fallback={<GithubStarsSkeleton />}>
-            <GithubStars />
-          </Suspense>
           <h1 className="font-bold tracking-tighter text-3xl sm:text-5xl lg:text-6xl max-w-sm sm:max-w-4xl">
-            An open source e-commerce project built by{" "}
-            <span className="text-blue-600">inifarhan</span>
+            A place where you can find your disposable towel.{" "}
+            <span className="text-blue-600">Sepals Hospitality</span>
           </h1>
           <h2 className="max-w-md sm:max-w-[42rem] leading-normal text-muted-foreground text-sm sm:text-xl sm:leading-8">
-            Buy and sell skateboarding gears from independent brands and stores
-            around the world with ease
+            For all your disposable needs. We offer a wide range of eco-friendly
+            disposable products for your business.
           </h2>
           <div className="flex flex-wrap items-center gap-4">
             <a href="/products" className={cn(buttonVariants())}>
