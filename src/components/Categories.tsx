@@ -14,7 +14,7 @@ const Categories = async () => {
     >
       <div className='flex items-end justify-between'>
         <div className='flex flex-col space-y-4'>
-          <h2 className='max-w-sm text-3xl md:text-5xl text-start text-blue-600 font-bold leading-[1.1]'>
+          <h2 className='max-w-sm text-3xl md:text-5xl text-start text-emerald-600 font-bold leading-[1.1]'>
             Featured Categories
           </h2>
           <h3 className='leading-normal text-muted-foreground sm:text-lg sm:leading-7'>
@@ -23,7 +23,7 @@ const Categories = async () => {
         </div>
         <a
           href='/products'
-          className='hidden md:flex gap-1 text-blue-700 hover:translate-x-1 hover:text-blue-600 transition-all'
+          className='hidden md:flex gap-1 text-emerald-700 hover:translate-x-1 hover:text-emerald-600 transition-all'
         >
           Shop the collection <ArrowRight />
         </a>

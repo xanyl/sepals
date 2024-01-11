@@ -16,7 +16,7 @@ const Products = async () => {
     >
       <div className='flex items-end justify-between'>
         <div className='flex flex-col space-y-4'>
-          <h2 className='text-3xl md:text-5xl text-start text-blue-600 font-bold leading-[1.1]'>
+          <h2 className='text-3xl md:text-5xl text-start text-emerald-600 font-bold leading-[1.1]'>
             Popular Products
           </h2>
           <h3 className='leading-normal text-muted-foreground sm:text-lg sm:leading-7'>
@@ -25,7 +25,7 @@ const Products = async () => {
         </div>
         <a
           href='/products'
-          className='hidden md:flex gap-1 text-blue-700 hover:translate-x-1 hover:text-blue-600 transition-all'
+          className='hidden md:flex gap-1 text-emerald-800 hover:translate-x-1 hover:text-teal-600 transition-all'
         >
           Shop the collection <ArrowRight />
         </a>
@@ -37,7 +37,7 @@ const Products = async () => {
         href='/products'
         className={cn(
           buttonVariants(),
-          'mx-auto bg-blue-700 flex w-fit hover:before:-translate-x-48',
+          'mx-auto bg-emerald-700 flex w-fit hover:before:-translate-x-48',
         )}
       >
         View all products

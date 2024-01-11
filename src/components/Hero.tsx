@@ -15,7 +15,7 @@ const Hero = async () => {
         viewBox="0 0 1440 320"
       >
         <path
-          fill="#1E90FF"
+          fill="#059669"
           fillOpacity="1"
           d="M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,122.7C672,96,768,96,864,122.7C960,149,1056,203,1152,213.3C1248,224,1344,192,1392,176L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
         ></path>
@@ -24,7 +24,7 @@ const Hero = async () => {
         <div className="flex flex-col gap-y-4 justify-center items-center text-center sm:items-start sm:text-start">
           <h1 className="font-bold tracking-tighter text-3xl sm:text-5xl lg:text-6xl max-w-sm sm:max-w-4xl">
             A place where you can find your disposable towel.{" "}
-            <span className="text-blue-600">Sepals Hospitality</span>
+            <span className="text-emerald-600">Sepals Hospitality</span>
           </h1>
           <h2 className="max-w-md sm:max-w-[42rem] leading-normal text-muted-foreground text-sm sm:text-xl sm:leading-8">
             For all your disposable needs. We offer a wide range of eco-friendly
